@@ -28,7 +28,7 @@ public class ConditionalEx {
 			act = "열공";
 			break;
 		case "FRIDAY":
-			ACT = "열공 후 불금";
+			act = "열공 후 불금";
 			break;
 		case "SATURDAY":
 			act = "방전";
@@ -48,11 +48,11 @@ public class ConditionalEx {
 		int month = scanner.nextInt();
 		int days = 0;
 		
-		String days;
+		//String days;
 		
 		switch(month) {
 		case 2:
-			days = "28일";
+	//		days = "28일";
 			break;
 			
 		case 1:
@@ -62,16 +62,16 @@ public class ConditionalEx {
 		case 8:
 		case 10:
 		case 12:
-			days = "31일":
+	//		days = "31일";
 			break;
 		case 4:
 		case 6:
 		case 9:
 		case 11:
-			days = "30일";
+	//		days = "30일";
 			break;
 		default:
-			days = "?";
+	//		days = "?";
 		}
 		System.out.println(month + "월은 " + days);
 		scanner.close();
