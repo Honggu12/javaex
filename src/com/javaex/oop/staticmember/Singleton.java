@@ -1,4 +1,4 @@
-package com.javaex.oop.Staticmember;
+package com.javaex.oop.staticmember;
 
 // 어던 상황에서든 단 하나의 인스턴스만 유지해야 하는 경우
 public class Singleton {
