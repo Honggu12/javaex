@@ -45,6 +45,7 @@ public class EnumEx {
 		String day = "FRIDAY";
 		Week obj = Week.valueOf(day);
 		System.out.print(obj.name() + " " + obj.ordinal());
+		//.
 	}
 
 }
